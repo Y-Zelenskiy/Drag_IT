@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag IT</title>
+    <link rel="stylesheet" href="grab_IT_style.css">
+    
+</head>
+<body>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #cfaf89;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        overflow: hidden;
+        user-select: none;
+    }
+    
+    .box {
+        display: block;
+        width: 100px;
+        height: 100px;
+        border: 1px #484848 solid;
+        background-color: royalblue;
+        margin: 5px;
+        &:hover {
+            background-color: rgb(41, 87, 226);
+        }
+    }
+    </style>
+    
+    <div class="box drag_on">1</div>
+    <div class="box">2</div>
+    <div class="box drag_on">3</div>
+    <div class="box drag_on">4</div>
+    <div class="box drag_on">5</div>
+    <div class="box drag_on">6</div>
+    <div class="box drag_on">7</div>
+
+
+</body>
+<script src="grab_IT.js"></script>
+</html>

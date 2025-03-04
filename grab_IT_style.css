@@ -1,0 +1,7 @@
+.drag_on {
+    cursor: grab;
+    &.active {
+        cursor: grabbing;
+    }
+}
+
